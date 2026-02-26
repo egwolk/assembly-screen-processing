@@ -6,11 +6,11 @@
     mov ds, ax
 
     mov ah, 00h
-    mov al, 03
+    mov al, 03 ;video mode
     int 10h
 
-    mov ax, 1003h
-    mov bx, 0000h
+    mov ax, 1003h ;10 sets pallete 03 toggle intensity
+    mov bx, 0000h ;dosable blink, enable bright colors
     int 10h
 
     ;browny orange
