@@ -22,14 +22,14 @@
     mov al, 00h
     mov bh, 20h ;2 = green bg
     mov cx, 0800h 
-    mov dx, 0f4fh
+    mov dx, 104fh
     int 10h
 
     ;blue
     mov ah, 6 ;scroll up
     mov al, 00h
     mov bh, 90h ;9 = blue bg
-    mov cx, 1000h 
+    mov cx, 1100h 
     mov dx, 184fh
     int 10h
 
