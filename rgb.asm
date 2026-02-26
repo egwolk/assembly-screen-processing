@@ -1,5 +1,5 @@
 .model small
-.stack 100hl
+.stack 100h
 .data
 .code
     mov ax, @data
