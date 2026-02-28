@@ -6,52 +6,44 @@
     mov ds, ax
 
     mov ah, 00h
-    mov al, 03
+    mov al, 13
     int 10h
 
     mov ax, 1003h
     mov bx, 0000h
     int 10h
-    
-    mov ah, 6 
-    mov al, 00h
-    mov bh, 0f0h 
-    mov cx, 0000h 
-    mov dx, 004fh 
-    int 10h
 
-    
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
-    mov cx, 0100h 
+    mov bh, 0fh 
+    mov cx, 0000h 
     mov dx, 014fh 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0200h 
     mov dx, 0206h 
     int 10h
 
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 020Dh 
     mov dx, 0204fh 
     int 10h
 
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0300h 
     mov dx, 0303h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0307h 
     mov dx, 030Ch 
     int 10h
@@ -65,14 +57,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0400h 
     mov dx, 0402h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0404h 
     mov dx, 040Fh 
     int 10h
@@ -86,14 +78,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0500h 
     mov dx, 0501h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0503h 
     mov dx, 0510h 
     int 10h
@@ -107,14 +99,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0600h 
     mov dx, 0600h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0602h 
     mov dx, 0611h 
     int 10h
@@ -128,14 +120,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0701h 
     mov dx, 0705h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0709h 
     mov dx, 070Ah 
     int 10h
@@ -149,7 +141,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 070Eh 
     mov dx, 0712h 
     int 10h
@@ -163,28 +155,28 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0801h 
     mov dx, 0805h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0807h 
     mov dx, 0807h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0809h 
     mov dx, 080Ah 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 080Ch 
     mov dx, 080Ch 
     int 10h
@@ -198,7 +190,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 080Eh 
     mov dx, 0812h 
     int 10h
@@ -212,7 +204,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0901h 
     mov dx, 0912h 
     int 10h
@@ -226,14 +218,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0A01h 
     mov dx, 0A03h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0A06h 
     mov dx, 0A0Dh 
     int 10h
@@ -247,7 +239,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0A10h 
     mov dx, 0A12h    
     int 10h
@@ -261,14 +253,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0B01h 
     mov dx, 0B03h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0F0h 
+    mov bh, 0fh 
     mov cx, 0B05h 
     mov dx, 0B05h 
     int 10h
@@ -282,7 +274,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0F0h 
+    mov bh, 0fh 
     mov cx, 0B0eh 
     mov dx, 0B0eh 
     int 10h
@@ -303,7 +295,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0B10h 
     mov dx, 0B12h 
     int 10h
@@ -317,21 +309,21 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0C00h 
     mov dx, 0C00h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0C02h 
     mov dx, 0C04h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0C06h 
     mov dx, 0C0Dh 
     int 10h
@@ -345,7 +337,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0C0Fh 
     mov dx, 0C11h 
     int 10h
@@ -359,14 +351,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 0D00h 
     mov dx, 0D00h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0D02h 
     mov dx, 0D06h 
     int 10h
@@ -380,7 +372,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0D0Eh 
     mov dx, 0D12h 
     int 10h
@@ -395,21 +387,21 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0F0h 
+    mov bh, 0fh 
     mov cx, 0E00h 
     mov dx, 0E01h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0E03h 
     mov dx, 0E06h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0E0Dh 
     mov dx, 0E10h 
     int 10h
@@ -423,14 +415,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0F0h 
+    mov bh, 0fh 
     mov cx, 0F00h 
     mov dx, 0F02h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 0F04h 
     mov dx, 0F0Fh 
     int 10h
@@ -444,14 +436,14 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 1000h 
     mov dx, 1003h 
     int 10h
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0e0h 
+    mov bh, 0eh 
     mov cx, 1006h 
     mov dx, 100Dh 
     int 10h
@@ -465,7 +457,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0f0h 
+    mov bh, 0fh 
     mov cx, 1100h 
     mov dx, 1105h 
     int 10h
@@ -480,7 +472,7 @@
     
     mov ah, 6 
     mov al, 00h
-    mov bh, 0F0h 
+    mov bh, 0fh 
     mov cx, 1200h 
     mov dx, 180Fh 
     int 10h
